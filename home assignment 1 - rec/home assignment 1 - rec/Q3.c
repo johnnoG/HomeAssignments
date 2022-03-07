@@ -1,10 +1,11 @@
 ////
 ////  Q3.c
-////  Home1_rec
+////  home assignment 1 - rec
 ////
-////  Created by Yonatan Glanzman on 05/03/2022.
+////  Created by Yonatan Glanzman on 07/03/2022.
 ////
 //
+//#include "Q3.h"
 //#include <stdio.h>
 //#include <string.h>
 //#include <stdlib.h>
@@ -44,4 +45,3 @@
 //    }
 //    else return strcomp(str1 + 1, str2 + 1);
 //}
-//
