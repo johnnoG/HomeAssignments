@@ -312,9 +312,7 @@ long findworstsal(WorkerList *head){
 void printList(WorkerList* head,int num)
 {
     WorkerList* temp = head;
-//    if (temp->data == NULL) {
-//        puts("list is empty");
-//    }
+
     while (temp)
     {
         PrintWorker(temp->data, num);
