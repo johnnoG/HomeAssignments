@@ -101,6 +101,9 @@ int main(){
         case 7:
             freeWorkers(head);
             break;
+        default:
+            puts("No option has been selected");
+            break;
         }
     }while (x);
 }
@@ -312,7 +315,6 @@ long findworstsal(WorkerList *head){
 void printList(WorkerList* head,int num)
 {
     WorkerList* temp = head;
-
     while (temp)
     {
         PrintWorker(temp->data, num);
