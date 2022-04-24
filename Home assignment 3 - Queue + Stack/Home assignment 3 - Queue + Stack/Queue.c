@@ -259,11 +259,5 @@ void fillQueue(Queue* q, Queue* q1){
     
 }
 
-void ShowQueue(Queue* q){
-    intNode* tmp = q->head;
-    while (tmp)
-    {
-        printf("%d\n", tmp->data);
-        tmp = tmp->next;
-    }
-}
+
+

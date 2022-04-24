@@ -17,11 +17,13 @@ int even_len(Stack* s, int len);
 int odd_len(Stack* s, int len);
 int flip_str(char* str, int dex);
 void change_order(Stack* s, int n, int len);
-void ShowStack(Stack* s);
+void printstack(Stack* s);
+
 
 void initStack(Stack* s)
 {
     s->head = NULL;
+    
 }
 
 void destroyStack(Stack* s)
@@ -235,6 +237,8 @@ int odd_len(Stack* s, int len){
     }
     return 0;
 }
+
+
 //function the changes the order of the first "n" objects of stack
 void change_order(Stack* s, int n, int len){
     Stack* s1 = NULL;
@@ -265,13 +269,3 @@ void change_order(Stack* s, int n, int len){
 
 }
 
-// a function which prints the stack
-void ShowStack(Stack * s)
-    {
-        charNode* tmp = s->head;
-        while (tmp)
-        {
-            printf("%c\n", tmp->data);
-            tmp = tmp->next;
-        }
-    }
