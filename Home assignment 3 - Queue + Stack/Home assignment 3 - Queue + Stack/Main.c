@@ -54,6 +54,9 @@ void main(){
                         if(isEmptyStack(&stack)){
                             puts("stack is empty");
                         }
+                        else{
+                            puts("stack is not empty");
+                        }
                         break;
                     case 6:
                         puts("Please enter a sentence to fleep the hashes");

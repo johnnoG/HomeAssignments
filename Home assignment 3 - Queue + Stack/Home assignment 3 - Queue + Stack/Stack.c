@@ -43,6 +43,7 @@ void push(Stack* s, char data)
         puts("push: memory allocation problem\n");
         return;
     }
+    s->head = NULL;
     newnode->data = data;
     s->head = addToHead(s->head,newnode);
 }
@@ -57,7 +58,7 @@ char pop(Stack* s)
         return 0;
     }
     res = s->head->data;
-    t->head = s->head;
+    t = s;
     s->head = s->head->next;
     RemoveItem(&(t->head));
     return res;
