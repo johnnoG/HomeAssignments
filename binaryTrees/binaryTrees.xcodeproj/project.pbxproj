@@ -28,12 +28,12 @@
 /* Begin PBXFileReference section */
 		9F0EB0BB2837AA1000D9A784 /* binaryTrees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = binaryTrees; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0EB0BE2837AA1000D9A784 /* BST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BST.c; sourceTree = "<group>"; };
-		9F0EB0C52837AA4300D9A784 /* BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BST.h; path = ../../../../../../Downloads/BST.h; sourceTree = "<group>"; };
 		9F0EB0C72837AA7600D9A784 /* TreePrint.dll */ = {isa = PBXFileReference; lastKnownFileType = file; name = TreePrint.dll; path = ../../../../../../.Trash/TreePrint.dll; sourceTree = "<group>"; };
 		9F0EB0C82837AA8800D9A784 /* TreePrint.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = TreePrint.lib; path = ../../../../../../Downloads/TreePrint.lib; sourceTree = "<group>"; };
 		9F0EB0CA2837AAA000D9A784 /* TreePrintLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TreePrintLibrary.h; path = ../../../../../../Downloads/TreePrintLibrary.h; sourceTree = "<group>"; };
 		9F21B32B284C8FE400C3975B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9F846F08284E8C740099502C /* binaryTrees.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = binaryTrees.profdata; sourceTree = "<group>"; };
+		9FEB6BF128524AB100106FC6 /* binaryTrees */ = {isa = PBXFileReference; lastKnownFileType = folder; path = binaryTrees; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			children = (
 				9F21B32B284C8FE400C3975B /* main.c */,
 				9F0EB0BE2837AA1000D9A784 /* BST.c */,
-				9F0EB0C52837AA4300D9A784 /* BST.h */,
+				9FEB6BF128524AB100106FC6 /* binaryTrees */,
 				9F0EB0CA2837AAA000D9A784 /* TreePrintLibrary.h */,
 				9F0EB0C82837AA8800D9A784 /* TreePrint.lib */,
 				9F0EB0C72837AA7600D9A784 /* TreePrint.dll */,
