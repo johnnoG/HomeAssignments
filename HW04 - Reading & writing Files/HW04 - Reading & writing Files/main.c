@@ -224,7 +224,7 @@ void factorGivenCourse(char** const* students, const int* coursesPerStudent, int
                 
                 fixedgrade = atoi(students[i][j + 1]) + factor;
                 
-//                makong sure the grade is not bigger then 100 or smaller then 0
+//                making sure the grade is not bigger then 100 or smaller then 0
                 if (fixedgrade > 100){
                     fixedgrade = 100;
                 }
@@ -297,7 +297,6 @@ void writeToBinFile(const char* fileName, Student* students, int numberOfStudent
             }
         }
         fclose(Fptr);
-
 }
 
 
